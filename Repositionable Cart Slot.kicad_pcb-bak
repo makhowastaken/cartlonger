@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 14)
     (tracks 355)
     (zones 0)
     (modules 2)
@@ -357,6 +357,8 @@
       (net 1 "Net-(J1-Pad1)") (solder_mask_margin 0.0508))
   )
 
+  (gr_arc (start 10.807699 -2.184401) (end 10.795 -2.667) (angle 35.58463104) (layer Edge.Cuts) (width 0.05) (tstamp 5E6D9B9B))
+  (gr_arc (start -10.807699 -2.184401) (end -10.795 -2.667) (angle -35.58463104) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start -23.5966 4.85) (end -24.257 4.85) (angle 65.29756977) (layer Edge.Cuts) (width 0.05) (tstamp 5E6D9B7E))
   (gr_arc (start 23.8506 4.85) (end 24.511 4.85) (angle -65.29756977) (layer Edge.Cuts) (width 0.05))
   (gr_text "makho - cart slot extender" (at 0 3.683) (layer B.SilkS) (tstamp 5E6D99FE)
@@ -372,9 +374,9 @@
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start -24.257 4.85) (end -24.257 7.0485) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start -10.795 -2.667) (end -23.872585 4.250033) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start -11.078198 -2.584268) (end -23.872585 4.250033) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 10.795 -2.667) (end -10.795 -2.667) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 24.126585 4.250033) (end 10.795 -2.667) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 24.126585 4.250033) (end 11.078198 -2.584268) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 24.511 7.0485) (end 24.511 4.85) (layer Edge.Cuts) (width 0.05))
   (gr_line (start -24.257 7.0485) (end 24.511 7.0485) (layer Edge.Cuts) (width 0.05))
 
